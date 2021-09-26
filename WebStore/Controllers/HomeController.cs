@@ -10,9 +10,10 @@ namespace WebStore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("sdbdfsbsd");
+            //return Content("sdbdfsbsd");
+            return View(); 
         }
-        public IActionResult SecondAction(string id)
+        public IActionResult SecondAction(int id)
         {
             return Content($"SecondAction param {id}");
         }
